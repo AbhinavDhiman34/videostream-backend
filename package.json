@@ -1,0 +1,14 @@
+{
+  "name": "steaming-backend",
+  "version": "1.0.0",
+  "description": "my own bakend project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Abhinav Dhiman",
+  "license": "ISC"
+}
