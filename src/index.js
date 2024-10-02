@@ -4,7 +4,7 @@ import {app} from "./app.js";
 import connectDB from "./db/index.js";
 
 dotenv.config({ path: "./env" });
-connectDB()
+connectDB()//ASYNC METHOD H TO PROMISE RETURN KRTA H ISILIYE THEN AUR CATCH LGA RAKHA H
   .then(() => {
     app.on("error", (error) => {
       console.error("Error while connecting with mongodb", error);
