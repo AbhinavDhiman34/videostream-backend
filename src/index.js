@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import {app} from "./app.js";
 import connectDB from "./db/index.js";
 
-dotenv.config({ path: "./env" });
+dotenv.config({ path: "./.env" });
 connectDB()//ASYNC METHOD H TO PROMISE RETURN KRTA H ISILIYE THEN AUR CATCH LGA RAKHA H
   .then(() => {
     app.on("error", (error) => {
